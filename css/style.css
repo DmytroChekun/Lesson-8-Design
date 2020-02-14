@@ -1,7 +1,9 @@
-@font-face{
-    font-family: "HansKendrick";
-    src: url("/fonts/HansKendrick.ttf");
-}
+@font-face {font-family: "HansKendrick"; src: url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot");
+    src: url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.svg#Hans Kendrick V4") format("svg"); }
 
 *{transition: all .1s ease-in;}
 
