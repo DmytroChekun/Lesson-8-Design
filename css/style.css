@@ -18,9 +18,11 @@ main{
     width: 73%;
     align-items: center;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 section:first-child{
+    
 }
 
 section p:nth-child(2){
