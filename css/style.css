@@ -7,24 +7,27 @@ p{
     text-transform: uppercase;
 }
 body{
-    background-color: #e2e7ec; 
+    background-color: #e2e7ec;
+    margin: 0 auto;
 }
 
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 73%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 section:first-child{
-    flex-grow: 1;
 }
 
 section p:nth-child(2){
     font-family: HansKendrick;
     color: #818181;
     font-size: 13px;
+    margin: 25px 0;
 }
 
 section p:nth-child(3){
@@ -32,9 +35,16 @@ section p:nth-child(3){
     color: #1d1d1d;
     font-size: 22px;
     font-weight: bolder;
+    margin-bottom: 70px;
 }
 
-section nth-child(2), section nth-child(3), section nth-child(4), section nth-child(5){
-    display: flex;
-    
+section:nth-child(2), section:nth-child(3),section:nth-child(4), section:nth-child(5){
+    display: flexbox;
+    flex-basis: 32.14%;
+    background: #fff;
+}
+
+section img:last-child{
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
