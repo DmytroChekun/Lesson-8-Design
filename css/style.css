@@ -1,7 +1,9 @@
 @font-face{
-    font-family: HansKendrick;
+    font-family: "HansKendrick";
     src: url(/fonts/HansKendrick.ttf);
 }
+
+*{transition: all .1s ease-in;}
 
 p{
     text-transform: uppercase;
@@ -35,12 +37,8 @@ section:first-child{
     z-index: 2;
 }
 
-*{transition: all .1s ease-in;}
-
-
-
 section p:nth-child(2){
-    font-family: HansKendrick;
+    font-family: "HansKendrick", sans-serif;
     color: #818181;
     font-size: 13px;
     margin-top: 25px;
@@ -48,14 +46,12 @@ section p:nth-child(2){
 }
 
 section p:nth-child(3){
-    font-family: HansKendrick;
+    font-family: "HansKendrick", sans-serif;
     color: #1d1d1d;
     font-size: 22px;
     font-weight: bolder;
     margin-bottom: 70px;
 }
-
-
 
 section:nth-child(2), section:nth-child(3),section:nth-child(4), section:nth-child(5){
     display: flexbox;
