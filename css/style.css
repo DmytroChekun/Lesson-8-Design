@@ -5,6 +5,8 @@
 
 p{
     text-transform: uppercase;
+    padding-left: 1.8vw;
+    letter-spacing: 0.7px;
 }
 body{
     background-color: #e2e7ec;
@@ -15,21 +17,34 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 73%;
+    width: 73vw;
     align-items: center;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 section:first-child{
-    
+    background-image: url(/images/1car.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
 }
+
+*{transition: all .1s ease-in;}
+
+
 
 section p:nth-child(2){
     font-family: HansKendrick;
     color: #818181;
     font-size: 13px;
-    margin: 25px 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 section p:nth-child(3){
@@ -40,6 +55,8 @@ section p:nth-child(3){
     margin-bottom: 70px;
 }
 
+
+
 section:nth-child(2), section:nth-child(3),section:nth-child(4), section:nth-child(5){
     display: flexbox;
     flex-basis: 32.14%;
@@ -49,4 +66,27 @@ section:nth-child(2), section:nth-child(3),section:nth-child(4), section:nth-chi
 section img:last-child{
     padding-left: 25px;
     padding-bottom: 25px;
+    z-index: 2;
 }
+
+section:nth-child(2){
+    margin-top: -2vh;
+}
+
+.first-box p:nth-child(1){
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+.first-box p:nth-child(2){
+    font-size: 30px;
+    color: #fff;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+section:hover{
+    box-shadow: inset 0px -200px 72px -53px rgba(0,0,0,0.8);
+    }
+
