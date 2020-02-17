@@ -1,15 +1,11 @@
-@font-face {font-family: "HansKendrick"; src: url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot");
-    src: url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/640850c0965fa5449af39df95c9970de.svg#Hans Kendrick V4") format("svg"); }
-
-*{transition: all .1s ease-in;}
+@font-face {font-family: "HansKendrick";
+    src: url("/fonts/HansKendrick.otf") format("embedded-opentype"),
+         url("/fonts/HansKendrick.ttf") format("truetype");
+        }
 
 p{
     text-transform: uppercase;
-    padding-left: 1.8vw;
+    padding-left: 20px;
     letter-spacing: 0.7px;
 }
 body{
@@ -21,22 +17,22 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 73vw;
+    width: 1120px;
     align-items: center;
     margin: 0 auto;
     justify-content: space-between;
+    margin-top: 90px;
 }
 
 section:first-child{
     background-image: url(/images/1car.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 66%;
-    height: 75vh;
+    width: 740px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    z-index: 2;
 }
 
 section p:nth-child(2){
@@ -57,18 +53,14 @@ section p:nth-child(3){
 
 section:nth-child(2), section:nth-child(3),section:nth-child(4), section:nth-child(5){
     display: flexbox;
-    flex-basis: 32.14%;
     background: #fff;
+    width: 360px;
+    height: 540px;
 }
 
 section img:last-child{
     padding-left: 25px;
     padding-bottom: 25px;
-    z-index: 2;
-}
-
-section:nth-child(2){
-    margin-top: -2vh;
 }
 
 .first-box p:nth-child(1){
@@ -88,3 +80,7 @@ section:hover{
     box-shadow: inset 0px -200px 72px -53px rgba(0,0,0,0.8);
     }
 
+    *{transition: all .1s ease-in;}
+
+.low{
+    margin-top: 20px;
